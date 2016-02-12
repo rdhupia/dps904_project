@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+	<persistence-unit name="JPAFirstProject" transaction-type="RESOURCE_LOCAL">
+		<class>com.JPADevelopment.onlinequiz.SubjectEntity</class>
+		<class>com.JPADevelopment.onlinequiz.QuizzesEntity</class>
+		<class>com.JPADevelopment.onlinequiz.QuestionsEntity</class>
+		<class>com.JPADevelopment.onlinequiz.AnswerChoicesEntity</class>
+		<class>com.JPADevelopment.onlinequiz.QuestionTypesEntity</class>
+		<class>com.JPADevelopment.onlinequiz.UserResponsesEntity</class>
+		<class>com.JPADevelopment.onlinequiz.RecordsEntity</class>
+		<class>com.JPADevelopment.onlinequiz.UsersEntity</class>
+		<class>com.JPADevelopment.onlinequiz.CommentsEntity</class>
+		<properties>
+			<property name="javax.persistence.jdbc.user" value="dps904_161a04"/>
+			<property name="javax.persistence.jdbc.password" value="bhTG4729"/>
+			<property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/>
+			<property name="javax.persistence.jdbc.url" value="jdbc:mysql://zenit.senecac.on.ca/dps904_161a04"/>
+		</properties>
+	</persistence-unit>
+</persistence>
